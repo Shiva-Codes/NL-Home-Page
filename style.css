@@ -1,0 +1,151 @@
+.faq-section {
+    padding: 20px;
+    
+}
+
+.faq-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.faq-question {
+    cursor: pointer;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    margin: 0;
+}
+
+.faq-answer.open {
+    max-height: 200px;
+    padding: 10px;
+}
+
+.dotted-line {
+    border: none;
+    border-top: 1px dotted #ccc;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #f4f6f7;
+    padding: 30px 10px;
+}
+
+.book-categories {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+}
+
+.category {
+    flex: 1 1 calc(30% - 20px); 
+    padding: 15px;
+    margin-left: 20px; 
+}
+
+
+.category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.category ul li {
+    margin: 8px 0;
+}
+
+.category ul li a {
+    color: black; 
+    text-decoration: none;
+}
+
+.category ul li a:hover {
+    color: #0072CE; 
+}
+
+.category h4 {
+    color: #003366;
+}
+
+.footer-column h4 {
+    color: #003366;
+}
+
+.category ul li a {
+    color: #777;
+    text-decoration: none;
+}
+
+.category ul li a:hover {
+    color: #777;
+}
+
+hr {
+    border: 1px solid #e5e7eb;
+    margin: 30px 0;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    width: 25%;
+}
+
+.footer-logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.app-buttons img {
+    width: 120px;
+    margin-right: 10px;
+}
+
+.footer-column h4 {
+    font-weight: bold;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin: 8px 0;
+}
+
+.footer-column ul li a {
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 1px solid #e5e7eb;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+.footer-bottom a {
+    color: #0072CE;
+    text-decoration: none;
+}
+
+.social-icons img {
+    width: 30px;
+    margin-left: 10px;
+}
